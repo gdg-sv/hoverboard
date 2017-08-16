@@ -16,13 +16,13 @@
     "backgroundColor": "#F57C00"
   },
   "firebase": {
-    "name": "hoverboard-experimental",
-    "domain": "hoverboard-experimental.firebaseapp.com",
-    "database": "https://hoverboard-experimental.firebaseio.com",
-    "api": "AIzaSyALDa2D7CMhK_wt2VkET1MaJuQXYVUJd2I",
     "userSessionsPath": "/userSessions",
     "ratingsPath": "/ratings",
-    "indexedDbSession": "hoverboard"
+    "indexedDbSession": "hoverboard",
+    "api": "AIzaSyCoCXg1-Vsir5wmyi_Zkgy-NrykLRh5POw",
+    "domain": "gdg-silicon-valley.firebaseapp.com",
+    "database": "https://gdg-silicon-valley.firebaseio.com",
+    "name": "gdg-silicon-valley"
   },
   "mailchimp": {
     "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
@@ -30,7 +30,7 @@
   },
   "dateFormat": {
     "locale": "en-US",
-    "blog": {"month": "short", "day": "numeric", "year": "numeric"}
+    "blog": { "month": "short", "day": "numeric", "year": "numeric" }
   },
   "hashtag": "dfua",
   "disqusShortName": "hoverboard-gdg-x",
@@ -63,38 +63,28 @@
   "social": [
     {
       "name": "twitter",
-      "nickname": "GDGLviv",
-      "url": "https://twitter.com/gdglviv"
+      "nickname": "GDGSV",
+      "url": "https://twitter.com/gdgsv"
     },
     {
       "name": "gplus",
-      "nickname": "102444623953913144164",
-      "url": "https://plus.google.com/102444623953913144164"
-    },
-    {
-      "name": "facebook",
-      "nickname": "GDGLviv",
-      "url": "https://www.facebook.com/GDGLviv"
-    },
-    {
-      "name": "linkedin",
-      "nickname": "google-developers-group-lviv",
-      "url": "https://www.linkedin.com/company/google-developers-group-lviv"
+      "nickname": "107299704799906781285",
+      "url": "https://plus.google.com/107299704799906781285"
     }
   ],
   "location": {
     "apiKey": "",
-    "name": "Pivdennyi Expo Center",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
-    "link": "https://www.facebook.com/expopivdennij",
+    "name": "",
+    "address": "San Jose",
+    "link": "",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 37.3382,
+      "longitude": 121.8863,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 49.809841,
-      "longitude": 23.982805
+      "latitude": 37.3382,
+      "longitude": 121.8863
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
@@ -121,7 +111,7 @@
         "fontColor": "#fff",
         "tabBarColor": "#fff",
         "video": {
-          "title": "GDG DevFest Ukraine 2016",
+          "title": "GDG DevFest Silicon Valley 2017",
           "youtubeId": "TdpbgRgz6eE",
           "text": "See how it was in 2016"
         },
