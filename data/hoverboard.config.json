@@ -1,14 +1,14 @@
 {
   "url": "https://hoverboard.firebaseapp.com/",
-  "startDate": "2016-09-09T09:00:00+03:00",
+  "startDate": "2017-09-09T09:00:00+03:00",
   "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
     "prod": "UA-43643469-8",
     "dev": "UA-43643469-9"
   },
   "organizer": {
-    "name": "GDG Lviv",
-    "twitter": "gdglviv"
+    "name": "GDG SV",
+    "twitter": "@gdgsv"
   },
   "webapp": {
     "shortName": "DevFest",
@@ -21,7 +21,7 @@
     "indexedDbSession": "hoverboard",
     "api": "AIzaSyCoCXg1-Vsir5wmyi_Zkgy-NrykLRh5POw",
     "domain": "gdg-silicon-valley.firebaseapp.com",
-    "database": "https://gdg-silicon-valley.firebaseio.com",
+    "database": "https://gdg-silicon-valley.firebaseio.com/",
     "name": "gdg-silicon-valley"
   },
   "mailchimp": {
@@ -42,10 +42,6 @@
     {
       "route": "home",
       "permalink": "/"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog/"
     },
     {
       "route": "schedule",
@@ -93,7 +89,7 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/events/gallery/cc6tosp4ohkp6qj9pg5jb4g6o3k?sort=1",
+    "albumUrl": "https://plus.google.com/photos/107299704799906781285/album/6225267644626135953",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [

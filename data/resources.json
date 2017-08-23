@@ -2,8 +2,8 @@
   "title": "GDG DevFest Season 2017",
   "description": "The biggest Google tech conference in Silicon Valley carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "September 9-10, 2016",
-  "locationAddressShort": "Mountain View, California",
+  "dates": "NOVEMBER 11, 2017",
+  "locationAddressShort": "San Jose, California",
   "motto": "Be a GDG. Be a Hero!",
   "playIcon": "See how it was in 2016",
   "c4p": "Become a speaker",
@@ -23,16 +23,16 @@
   "clickToViewPhotos": "Click here to view more photos",
   "partners": "Partners",
   "becomePartner": "Become a partner",
-  "featuredVideosTitle": "Featured #DFUA '15 Sessions",
+  "featuredVideosTitle": "Featured #GDGSV '16 Sessions",
   "featuredVideosViewAll": "View all videos",
   "featuredPeopleTitle": "Rockstar Speakers",
   "featuredPeopleViewAll": "View all speakers",
   "action": "See how it was",
-  "locationTitle": "Pivdennyi Expo Center",
+  "locationTitle": "COMING SOON",
   "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "Shchyretska St, 36",
+  "locationAddress": "San Jose",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+  "aboutOrganizers": "<a href='https://www.thisdot.co/' target='_blank'>GDG Silicon Valley</a> with support of 10 GDGs from all around Bay Area is proud organizer of DevFest Silicon Valley",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is GDG?",
   "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -78,18 +78,18 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "text": "GDG DevFest Silicon Valley 2014",
+          "url": "http://devfest2014.gdgsv.com/",
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2014",
-          "url": "http://devfest.gdg.org.ua/2014/",
+          "text": "GDG DevFest Silicon Valley 2015",
+          "url": "http://devfest2015.gdgsv.com/",
           "newTab": true
         },
         {
-          "text": "GDG DevFest Ukraine 2015",
-          "url": "http://devfest.gdg.org.ua/2015/",
+          "text": "GDG DevFest Silicon Valley 2016",
+          "url": "https://devfest2016.gdgsv.com/",
           "newTab": true
         }
       ]
@@ -122,15 +122,15 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 600,
+      "counter": 1000,
       "caption": "Attendees"
     },
     {
-      "counter": 2,
+      "counter": 1,
       "caption": "Days"
     },
     {
-      "counter": 30,
+      "counter": 20,
       "caption": "Sessions"
     },
     {
