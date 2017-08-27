@@ -1,5 +1,5 @@
 {
-  "url": "https://hoverboard.firebaseapp.com/",
+  "url": "https://gdg-silicon-valley.firebaseapp.com/",
   "startDate": "2017-09-09T09:00:00+03:00",
   "endDate": "2016-09-10T19:00:00+03:00",
   "analytics": {
@@ -33,7 +33,7 @@
     "blog": { "month": "short", "day": "numeric", "year": "numeric" }
   },
   "hashtag": "dfua",
-  "disqusShortName": "hoverboard-gdg-x",
+  "disqusShortName": "gdg-sv",
   "tweetsSource": "/data/tweets.json",
   "partnershipProposition": "http://bit.ly/df16-sponsor",
   "videosSessionsUrl": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AX3-ONkkWmDOZezu9Cmnv",
