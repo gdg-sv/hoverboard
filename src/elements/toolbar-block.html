@@ -19,13 +19,14 @@
   <template>
 
     <style include="shared-styles">
-      :host {
+       :host {
         --header-color: #fff;
         --paper-menu-button-dropdown-background: #fff;
 
         --paper-tabs: {
           height: 64px;
-        };
+        }
+        ;
         --iron-icon-fill-color: var(--header-color);
         --paper-tabs-selection-bar-color: var(--header-color);
 
@@ -79,7 +80,8 @@
       .signin-tab {
         --paper-tab-content-unselected: {
           opacity: 1;
-        };
+        }
+        ;
         height: 64px;
         font-size: 14px;
         font-weight: 500;
@@ -129,6 +131,7 @@
         font-size: 14px;
         cursor: pointer;
       }
+
     </style>
 
     <app-toolbar id="mainToolbar">
@@ -137,45 +140,28 @@
       </div>
       <div class="logo-wrapper">
         <a href="/" hidden$="{{hideLogo}}" fade>
-          <iron-image
-            class="logo"
-            src="/images/logo-white.svg"
-            sizing="contain"
-            alt="{$ title $}"
-          ></iron-image>
+          <iron-image class="logo" src="/images/logo-light.png" sizing="contain" alt="{$ title $}"></iron-image>
         </a>
       </div>
       <div class="navItem" layout horizontal self-end>
         <template is="dom-if" if="[[!app.isPhoneSize]]">
           <paper-tabs selected="[[app.page]]" attr-for-selected="name" noink>
             {% for nav in navigation %}
-              <paper-tab name="{$ nav.route $}" link>
-                <a href="{$ nav.permalink $}" class="nav-link">{$ pages[nav.route].title $}</a>
-              </paper-tab>
+            <paper-tab name="{$ nav.route $}" link>
+              <a href="{$ nav.permalink $}" class="nav-link">{$ pages[nav.route].title $}</a>
+            </paper-tab>
             {% endfor %}
           </paper-tabs>
         </template>
 
         <paper-tab class="signin-tab" on-tap="signIn" hidden$="[[app.user]]">{$ signIn $}</paper-tab>
 
-        <paper-menu-button
-          class="auth-menu"
-          hidden$="[[!app.user]]"
-          vertical-align="top"
-          horizontal-align="right"
-          phoneSize$="[[app.isPhoneSize]]"
-          layout horizontal center-center
-        >
-          <div
-            class="profile-image dropdown-trigger"
-            style="background-image: url('[[app.user.photoURL]]')"
-          ></div>
+        <paper-menu-button class="auth-menu" hidden$="[[!app.user]]" vertical-align="top" horizontal-align="right" phoneSize$="[[app.isPhoneSize]]"
+          layout horizontal center-center>
+          <div class="profile-image dropdown-trigger" style="background-image: url('[[app.user.photoURL]]')"></div>
           <div class="signin-panel dropdown-content">
             <div class="profile-details" layout horizontal>
-              <div
-                class="profile-image dropdown-trigger"
-                style="background-image: url('[[app.user.photoURL]]')"
-              ></div>
+              <div class="profile-image dropdown-trigger" style="background-image: url('[[app.user.photoURL]]')"></div>
               <div layout vertical center-justified>
                 <span class="profile-name">[[app.user.displayName]]</span>
                 <span class="profile-email">[[app.user.email]]</span>
@@ -244,6 +230,7 @@
       });
 
     }());
+
   </script>
 
 </dom-module>

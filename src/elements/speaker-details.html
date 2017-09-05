@@ -30,8 +30,7 @@
           <paper-icon-button class="back-button" dialog-dismiss icon="arrow-back"></paper-icon-button>
         </a>
         <div class="middle fallback-image-wrapper" hidden$="{{app.isPhoneSize}}">
-          <iron-image class="fallback-image" src="/images/logo-white.svg"
-                      alt="{$ title $}"></iron-image>
+          <iron-image class="fallback-image" src="/images/logo-light.png" alt="{$ title $}"></iron-image>
         </div>
         <div id="title" class="bottom title toolbar-title" hidden$="{{!app.isPhoneSize}}">[[speaker.name]]</div>
       </paper-toolbar>
@@ -78,11 +77,7 @@
                       <span class="badge" target="_blank" rel="noopener noreferrer">[[tag]]</span>
                     </template>
                   </div>
-                  <truncate-marked-text
-                    text="[[session.description]]"
-                    characters="220"
-                    break-last-word
-                  ></truncate-marked-text>
+                  <truncate-marked-text text="[[session.description]]" characters="220" break-last-word></truncate-marked-text>
                   <a class="read-more" hidden$="{{!session.day}}" href$="/schedule/day[[session.day]]?sessionId=[[session.id]]" dialog-dismiss>{$ readMore $}</a>
                 </div>
               </div>
@@ -137,7 +132,9 @@
           HOVERBOARD.Util.setMetaThemeColor(this.getComputedStyleValue('--' + generatedClass));
 
           if (this.app.isPhoneSize) {
-            this.$.scrollHeaderPanel.$.headerBg.style.background = 'linear-gradient(to top, rgba(0, 0, 0, 0.4) -10%, rgba(0, 0, 0, 0.1) 50%), url(' + this.speaker.photoUrl + ') 0 / cover no-repeat';
+            this.$.scrollHeaderPanel.$.headerBg.style.background =
+              'linear-gradient(to top, rgba(0, 0, 0, 0.4) -10%, rgba(0, 0, 0, 0.1) 50%), url(' + this.speaker.photoUrl +
+              ') 0 / cover no-repeat';
           }
           this.updateStyles();
         },
@@ -172,6 +169,7 @@
       });
 
     }());
+
   </script>
 
 </dom-module>
