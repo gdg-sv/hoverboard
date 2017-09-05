@@ -216,42 +216,44 @@
             <div class="link-block-title">{$ subscribe $}</div>
             <span>{$ subscribeNote $}</span>
             <mailchimp-subscribe app="[[app]]" url="{$ mailchimp.url $}" name="{$ mailchimp.name $}"></mailchimp-subscribe>
-          </div> -->
+          </div>
         </nav>
       </div>
       <div class="footer-content footer-bottom">
         <!-- Please do NOT delete next block -->
-        <div class="copyright">
-          &copy; 2017 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
-          Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank" rel="noopener noreferrer">Oleh
-          Zasadnyy</a> &middot;
-          <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
-        </div>
-        <div class="gplus">
-          <g:plusone size="medium" width="200" annotation="inline" href="{$ url $}"></g:plusone>
-        </div>
-
-        <paper-menu-button vertical-align="bottom" horizontal-align="left" share-menu>
-          <paper-icon-button icon="share" class="dropdown-trigger" on-tap="nativeShare"></paper-icon-button>
-          <div class="dropdown-content">
-            <paper-icon-item on-tap="share" share="gplus">
-              <iron-icon icon="gplus" item-icon></iron-icon>
-              Google+
-            </paper-icon-item>
-            <paper-icon-item on-tap="share" share="facebook">
-              <iron-icon icon="facebook" item-icon></iron-icon>
-              Facebook
-            </paper-icon-item>
-            <paper-icon-item on-tap="share" share="twitter">
-              <iron-icon icon="twitter" item-icon></iron-icon>
-              Twitter
-            </paper-icon-item>
-            <paper-icon-item on-tap="share" share="copy">
-              <iron-icon icon="link" item-icon></iron-icon>
-              {$ copyLink $}
-            </paper-icon-item>
+          <div class="copyright">
+            &copy; 2017 Based on
+            <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project Hoverboard
+            </a>. Designed and created by
+            <a href="http://o.zasadnyy.com/" target="_blank" rel="noopener noreferrer">Oleh Zasadnyy
+            </a> &middot;
+            <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
           </div>
-        </paper-menu-button>
+          <div class="gplus">
+            <g:plusone size="medium" width="200" annotation="inline" href="{$ url $}"></g:plusone>
+          </div>
+
+          <paper-menu-button vertical-align="bottom" horizontal-align="left" share-menu>
+            <paper-icon-button icon="share" class="dropdown-trigger" on-tap="nativeShare"></paper-icon-button>
+            <div class="dropdown-content">
+              <paper-icon-item on-tap="share" share="gplus">
+                <iron-icon icon="gplus" item-icon></iron-icon>
+                Google+
+              </paper-icon-item>
+              <paper-icon-item on-tap="share" share="facebook">
+                <iron-icon icon="facebook" item-icon></iron-icon>
+                Facebook
+              </paper-icon-item>
+              <paper-icon-item on-tap="share" share="twitter">
+                <iron-icon icon="twitter" item-icon></iron-icon>
+                Twitter
+              </paper-icon-item>
+              <paper-icon-item on-tap="share" share="copy">
+                <iron-icon icon="link" item-icon></iron-icon>
+                {$ copyLink $}
+              </paper-icon-item>
+            </div>
+          </paper-menu-button>
       </div>
     </div>
 
