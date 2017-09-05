@@ -3,17 +3,6 @@
     {
       "logos": [
         {
-          "logoUrl": "../images/logos/gdg-lviv.svg",
-          "name": "GDG SV",
-          "url": "https://plus.google.com/102444623953913144164",
-          "width": 170
-        }
-      ],
-      "title": "Template Creator"
-    },
-    {
-      "logos": [
-        {
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
           "url": "https://www.google.com/about/"
