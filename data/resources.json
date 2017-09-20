@@ -28,11 +28,11 @@
   "featuredPeopleTitle": "Rockstar Speakers",
   "featuredPeopleViewAll": "View all speakers",
   "action": "See how it was",
-  "locationTitle": "COMING SOON",
-  "locationDescription": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event",
-  "locationAddress": "San Jose",
+  "locationTitle": "Mountain View - Crittenden Campus",
+  "locationDescription": "Our traditional venue for the Silicon Valley DevFest Edition",
+  "locationAddress": "Mountain View",
   "organizerTitle": "Organizer",
-  "aboutOrganizers": "<a href='https://www.thisdot.co/' target='_blank'>GDG Silicon Valley</a> with support of 10 GDGs from all around Bay Area is proud organizer of DevFest Silicon Valley",
+  "aboutOrganizers": "<a href='https://www.meetup.com/gdg-silicon-valley/' target='_blank'>GDG Silicon Valley</a> is proud organizer of DevFest Silicon Valley",
   "openTeamPage": "Open team page",
   "whatIsGdg": "What is GDG?",
   "aboutGdg": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
@@ -78,33 +78,8 @@
           "newTab": true
         },
         {
-          "text": "GDG DevFest Silicon Valley 2014",
-          "url": "http://devfest2014.gdgsv.com/",
-          "newTab": true
-        },
-        {
-          "text": "GDG DevFest Silicon Valley 2015",
-          "url": "http://devfest2015.gdgsv.com/",
-          "newTab": true
-        },
-        {
           "text": "GDG DevFest Silicon Valley 2016",
           "url": "https://devfest2016.gdgsv.com/",
-          "newTab": true
-        }
-      ]
-    },
-    {
-      "title": "For Partners",
-      "links": [
-        {
-          "text": "Partnership Proposition",
-          "url": "http://bit.ly/df16-sponsor",
-          "newTab": true
-        },
-        {
-          "text": "Media Kit",
-          "url": "http://bit.ly/df16-media",
           "newTab": true
         }
       ]
@@ -122,24 +97,20 @@
   "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) SV](https://www.meetup.com/gdg-silicon-valley/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
   "statistics": [
     {
-      "counter": 1000,
+      "counter": 400,
       "caption": "Attendees"
     },
     {
       "counter": 1,
-      "caption": "Days"
+      "caption": "Day"
     },
     {
-      "counter": 20,
+      "counter": 26,
       "caption": "Sessions"
     },
     {
       "counter": 3,
       "caption": "Tracks"
     }
-  ],
-  "callToAction": {
-    "videoTitle": "GDG DevFest 2015",
-    "videoId": "DfMnJAzOFng"
-  }
+  ]
 }
