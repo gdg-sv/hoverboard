@@ -1,6 +1,6 @@
 {
   "title": "GDG DevFest Season 2017",
-  "description": "The biggest Google tech conference in Silicon Valley carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts",
+  "description": "The biggest Google tech conference in Silicon Valley carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts.",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "NOVEMBER 11, 2017",
   "locationAddressShort": "San Jose, California",
@@ -10,7 +10,7 @@
   "buyTicket": "Buy ticket",
   "backToTop": "Back to top",
   "subscribe": "Subscribe",
-  "yourEmail": "Your email",
+  "yourEmail": "gdg-sv-list@meetup.com",
   "subscribeNote": "No spam, only the latest news and updates!",
   "contactUs": "Contact us",
   "ticketsTitle": "Tickets",
@@ -76,11 +76,6 @@
           "text": "Google Developers",
           "url": "https://developers.google.com/",
           "newTab": true
-        },
-        {
-          "text": "GDG DevFest Silicon Valley 2016",
-          "url": "https://devfest2016.gdgsv.com/",
-          "newTab": true
         }
       ]
     }
@@ -88,8 +83,8 @@
   "contactBlock": {
     "links": [
       {
-        "text": "devfest@google.com",
-        "url": "mailto:devfest@google.com"
+        "text": "gdg-sv-list[at]meetup.com",
+        "url": "mailto:gdg-sv-list@meetup.com"
       }
     ]
   },
