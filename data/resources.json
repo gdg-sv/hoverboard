@@ -3,7 +3,7 @@
   "description": "The biggest Google tech conference in Silicon Valley carefully crafted for you by GDG community! All about Android, Web and Cloud from the world experts.",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, android, pwa, flutter, firebase",
   "dates": "DECEMBER 16, 2017",
-  "locationAddressShort": "San Jose, California",
+  "locationAddressShort": "Sunnyvale, California",
   "motto": "Be a GDG. Be a Hero!",
   "playIcon": "See how it was in 2016",
   "c4p": "Become a speaker",
@@ -28,9 +28,9 @@
   "featuredPeopleTitle": "Rockstar Speakers",
   "featuredPeopleViewAll": "View all speakers",
   "action": "See how it was",
-  "locationTitle": "Mountain View - Crittenden Campus",
-  "locationDescription": "Our traditional venue for the Silicon Valley DevFest Edition",
-  "locationAddress": "Mountain View",
+  "locationTitle": "Sunnyvale - Java Drive",
+  "locationDescription": "A new venue for the Silicon Valley DevFest Edition",
+  "locationAddress": "111 E Java Dr Sunnyvale, CA 94089",
   "organizerTitle": "Organizer",
   "aboutOrganizers": "<a href='https://www.meetup.com/gdg-silicon-valley/' target='_blank'>GDG Silicon Valley</a> is proud organizer of DevFest Silicon Valley",
   "openTeamPage": "Open team page",
@@ -89,7 +89,7 @@
     ]
   },
   "teamPageTitle": "Team",
-  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) SV](https://www.meetup.com/gdg-silicon-valley/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT.",
+  "teamPageText": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) SV](https://www.meetup.com/gdg-silicon-valley/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize a space to connect people from the Silicon Valley and allow for a free flow of information .",
   "statistics": [
     {
       "counter": 400,

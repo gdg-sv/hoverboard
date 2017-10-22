@@ -1,7 +1,7 @@
 FROM node
 
-ADD . /app
-RUN chown -R node:node /app
+# ADD . /app
+# RUN chown -R node:node /app
 
 USER node
 WORKDIR /app
