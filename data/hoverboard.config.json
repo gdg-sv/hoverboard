@@ -24,10 +24,6 @@
     "database": "https://gdg-silicon-valley.firebaseio.com/",
     "name": "gdg-silicon-valley"
   },
-  "mailchimp": {
-    "url": "https://gdg.us11.list-manage.com/subscribe/post?u=b7e853a79164ddfdbda3ed77b&amp;id=7993e39fbe",
-    "name": "b_b7e853a79164ddfdbda3ed77b_7993e39fbe"
-  },
   "dateFormat": {
     "locale": "en-US",
     "blog": { "month": "short", "day": "numeric", "year": "numeric" }
@@ -40,6 +36,10 @@
     {
       "route": "home",
       "permalink": "/"
+    },
+    {
+      "route": "blog",
+      "permalink": "/blog/"
     },
     {
       "route": "schedule",
@@ -63,22 +63,32 @@
     {
       "name": "gplus",
       "nickname": "107299704799906781285",
-      "url": "https://plus.google.com/107299704799906781285"
+      "url": "https://plus.google.com/b/107299704799906781285"
+    },
+    {
+      "name": "website",
+      "nickname": "GDGLSV",
+      "url": "https://www.meetup.com/gdg-silicon-valley/"
+    },
+    {
+      "name": "linkedin",
+      "nickname": "google-developers-group-silicon-valley",
+      "url": "https://www.linkedin.com/groups/67627"
     }
+
   ],
   "location": {
     "apiKey": "",
-    "name": "",
-    "address": "Mountain View",
-    "link": "",
+    "name": "Google SV-JAVA111",
+    "address": "Sunnyvale",
     "pointer": {
-      "latitude": 37.3382,
-      "longitude": 121.8863,
+      "latitude": 37.412208,
+      "longitude": 122.018259,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 37.3382,
-      "longitude": 121.8863
+      "latitude": 37.412208,
+      "longitude": 122.018259
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
