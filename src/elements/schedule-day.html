@@ -102,54 +102,46 @@
   </template>
 
   <script>
-    (function () {
-      'use strict';
+  (function() {
+  'use strict';
+  Polymer({
+    is: 'schedule-day',
 
-      Polymer({
+    behaviors: [HOVERBOARD.CascadedBehavior, HOVERBOARD.UtilsBehavior, HOVERBOARD.MyScheduleBehavior],
 
-        is: 'schedule-day',
+    properties: {
+      app: {
+        type: Object,
+        notify: true,
+      },
 
-        behaviors: [
-          HOVERBOARD.CascadedBehavior,
-          HOVERBOARD.UtilsBehavior,
-          HOVERBOARD.MyScheduleBehavior
-        ],
+      day: {
+        type: Object,
+      },
 
-        properties: {
-          app: {
-            type: Object,
-            notify: true
-          },
+      name: {
+        type: String,
+      },
 
-          day: {
-            type: Object
-          },
+      filters: {
+        type: Array,
+        value: [],
+      },
+    },
 
-          name: {
-            type: String
-          },
+    _splitText: function(text, divider, index) {
+      return text.split(divider)[index];
+    },
 
-          filters: {
-            type: Array,
-            value: []
-          }
-        },
-
-
-        _splitText: function (text, divider, index) {
-          return text.split(divider)[index];
-        },
-
-        _filterSession: function () {
-          var filters = this.filters || [];
-          if (!filters.length) return false;
-          return function (session) {
-            return filters.indexOf(session.mainTag) > -1;
-          };
-        }
-      });
-
-    }());
-  </script>
+    _filterSession: function() {
+      var filters = this.filters || [];
+      if (!filters.length) return false;
+      return function(session) {
+        return filters.indexOf(session.mainTag) > -1;
+      };
+    },
+  });
+})();
+</script>
 
 </dom-module>
