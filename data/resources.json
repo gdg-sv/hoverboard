@@ -81,14 +81,6 @@
           "text": "Google Developers",
           "url": "https://developers.google.com/",
           "newTab": true
-<<<<<<< HEAD
-=======
-        },
-        {
-          "text": "GDG DevFest Silicon Valley 2016",
-          "url": "https://devfest2016.gdgsv.com/",
-          "newTab": true
->>>>>>> some work
         }
       ]
     }

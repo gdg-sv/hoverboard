@@ -3,6 +3,18 @@
     {
       "logos": [
         {
+          "logoUrl":
+            "http://www.gdgmumbai.org/wp-content/uploads/2015/04/developers.png",
+          "name": "GDG SV",
+          "url": "https://plus.google.com/102444623953913144164",
+          "width": 170
+        }
+      ],
+      "title": "Template Creator"
+    },
+    {
+      "logos": [
+        {
           "logoUrl": "../images/logos/google.svg",
           "name": "Google",
           "url": "https://www.google.com/about/"
@@ -11,79 +23,347 @@
       "title": "General Partner"
     }
   ],
+  "ratings": {
+    "nhKGCte0HQhlciaBVSG8pSmGv002": {
+      "sessions": {
+        "101": 4
+      }
+    }
+  },
   "schedule": [
     {
-      "date": "2017-11-11",
-      "dateReadable": "November 11",
+      "date": "2017-12-16",
+      "dateReadable": "December 16",
       "timeslots": [
         {
+          "endTime": "9:30",
+          "sessions": [[[201]]],
+          "startTime": "9:00"
+        },
+        {
           "endTime": "10:00",
-          "sessions": [[101]],
-          "startTime": "09:00"
+          "sessions": [[202]],
+          "startTime": "9:30"
+        },
+        {
+          "endTime": "10:40",
+          "sessions": [[203], [204], [205], [206]],
+          "startTime": "10:10"
+        },
+        {
+          "endTime": "11:20",
+          "sessions": [[208], [207], [205], [206]],
+          "startTime": "10:50"
+        },
+        {
+          "endTime": "12:00",
+          "sessions": [[209], [210], [205], [206]],
+          "startTime": "11:30"
+        },
+        {
+          "endTime": "12:30",
+          "sessions": [[211], [212]],
+          "startTime": "12:10"
+        },
+        {
+          "endTime": "1:30",
+          "sessions": [[212]],
+          "startTime": "12:30"
+        },
+        {
+          "endTime": "2:00",
+          "sessions": [[214], [215], [216], [217]],
+          "startTime": "1:30"
+        },
+        {
+          "endTime": "2:40",
+          "sessions": [[218], [219], [220], [221]],
+          "startTime": "2:10"
+        },
+        {
+          "endTime": "3:20",
+          "sessions": [[222], [223], [224], [225]],
+          "startTime": "2:50"
+        },
+        {
+          "endTime": "4:00",
+          "sessions": [[226], [227], [228], [229]],
+          "startTime": "3:30"
         }
       ],
       "tracks": [
         {
-          "title": "Expo hall"
+          "title": "Luca Pacioli (199)"
         },
         {
-          "title": "Conference hall"
+          "title": "Elinor Ostrom (110)"
         },
         {
-          "title": "Workshops hall"
+          "title": "Alexander Hamilton (40)"
+        },
+        {
+          "title": "Dan Bricklin (40)"
         }
       ]
     }
   ],
   "sessions": {
     "101": {
-      "complexity": "Beginner",
+      "complexity": "beginner",
       "description": "TBD",
       "id": 101,
       "language": "English",
       "presentation": "TBD",
-      "speakers": [1],
       "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "201": {
+      "id": 201,
+      "title": "Registration and Coffee"
+    },
+    "202": {
+      "id": 202,
+      "presentation": "Introduction and Keynote Speakers",
+      "title": "Welcome"
+    },
+    "203": {
+      "complexity": "beginner",
+      "description": "TBD",
+      "id": 203,
+      "presentation": "TBD",
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "204": {
+      "complexity": "beginner",
+      "description": "TBD",
+      "id": 204,
+      "presentation": "TBD",
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "205": {
+      "complexity": "multiple",
+      "description": "live coding",
+      "id": 205,
+      "presentation": "workshop",
+      "tags": ["CodeLabs"],
+      "title": "CodeLabs"
+    },
+    "206": {
+      "description": "open forum",
+      "id": 206,
+      "tags": ["Hallway"],
+      "title": "Meditation & Hallway Track"
+    },
+    "207": {
+      "complexity": "intermediate level",
+      "description": "TBD",
+      "id": 207,
+      "presentation": "TBD",
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "208": {
+      "complexity": "intermediate level",
+      "description": "TBD",
+      "id": 208,
+      "presentation": "TBD",
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "209": {
+      "complexity": "all levels",
+      "description": "TBD",
+      "id": 209,
+      "presentation": "TBD",
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "210": {
+      "complexity": "beginning",
+      "description": "TBD",
+      "id": 210,
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "211": {
+      "complexity": "multiple",
+      "description": "2 Lightning Talks (10 mins)",
+      "id": 211,
+      "title": "Lightning Talks"
+    },
+    "212": {
+      "complexity": "multiple",
+      "description": "2 Lightning Talks (10 mins)",
+      "id": 212,
+      "title": "Lightning Talks"
+    },
+    "213": {
+      "title": "Lunch"
+    },
+    "214": {
+      "complexity": "intermediate",
+      "description": "TBD",
+      "id": 214,
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "215": {
+      "complexity": "beginner",
+      "description": "TBD",
+      "id": 215,
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "216": {
+      "complexity": "multiple",
+      "description": "TBD",
+      "id": 216,
+      "tags": ["CodeLabs"],
+      "title": "TBD"
+    },
+    "217": {
+      "complexity": "beginner",
+      "description": "TBD",
+      "id": 217,
+      "tags": ["Hallway"],
+      "title": "TBD"
+    },
+    "218": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 218,
+      "presentation": "TBD",
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "219": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 219,
+      "presentation": "TBD",
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "220": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 220,
+      "presenation": "TBD",
+      "tags": ["CodeLabs"],
+      "title": "TBD"
+    },
+    "221": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 221,
+      "tags": ["Hallway"],
+      "title": "TBD"
+    },
+    "222": {
+      "complexty": "TBD",
+      "description": "TBD",
+      "id": [222],
+      "presentation": "TBD",
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "223": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 223,
+      "presentation": "TBD",
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "224": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 224,
+      "presentation": "TBD",
+      "tags": ["CodeLabs"],
+      "title": "TBD"
+    },
+    "225": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 225,
+      "presentation": "TBD",
+      "tags": ["Hallway"],
+      "title": "TBD"
+    },
+    "226": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 226,
+      "presenation": "TBD",
+      "tags": ["Cloud"],
+      "title": "TBD"
+    },
+    "227": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 227,
+      "presentation": "TBD",
+      "tags": ["Frontend"],
+      "title": "TBD"
+    },
+    "228": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 228,
+      "presentation": "TBD",
+      "tags": ["CodeLabs"],
+      "title": "TBD"
+    },
+    "229": {
+      "complexity": "TBD",
+      "description": "TBD",
+      "id": 229,
+      "presentation": "TBD",
+      "tags": ["Hallway"],
       "title": "TBD"
     }
   },
   "speakers": [
     {
-      "badges": [
-        {
-          "description": "TBD",
-          "link": "TBD",
-          "name": "GDE"
-        }
-      ],
       "bio": "TBD",
       "company": "TBD",
-      "companyLogo": "/images/logos/gdg-lviv.svg",
-      "country": "TBD",
+      "country": "USA",
       "featured": true,
       "id": 1,
-      "name": "TBD",
-      "photoUrl": "/images/people/DEFAULT.jpg",
+      "name": "Ben Lesh",
+      "photoUrl":
+        "https://pbs.twimg.com/profile_images/774378630856060928/PgONBPpm_400x400.jpg",
       "shortBio": "TBD",
       "socials": [
-        {
-          "icon": "facebook",
-          "link": "TBD",
-          "name": "Facebook"
-        },
+        null,
         {
           "icon": "twitter",
-          "link": "TBD",
+          "link": "https://twitter.com/BenLesh",
           "name": "Twitter"
-        },
-        {
-          "icon": "gplus",
-          "link": "TBD",
-          "name": "Google+"
         }
       ],
-      "tags": ["Android", "Doze", "Mobile UX", "Entrepreneurship"],
-      "title": "Android Evangelist & Developer"
+      "tags": ["RxJS"],
+      "title": "Software Engineer"
+    },
+    {
+      "bio": "TBD",
+      "country": "USA",
+      "featured": "TBD",
+      "id": 1,
+      "name": "Shirley Wu",
+      "photoUrl":
+        "https://pbs.twimg.com/profile_images/800998848755699712/DMRnv5Oz.jpg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/sxywu",
+          "name": "Twitter"
+        }
+      ],
+      "tags": ["D3"]
     }
   ],
   "team": [
@@ -110,6 +390,56 @@
             }
           ],
           "title": "Media And Website"
+        },
+        {
+          "name": "Trish Whetzel",
+          "photoUrl":
+            "https://pbs.twimg.com/profile_images/2582727052/566vwtsruq96mm3px0kz.jpeg",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://twitter.com/TrishWhetzel",
+              "name": "Twitter"
+            },
+            {
+              "icon": "linkedin",
+              "link": "https://www.linkedin.com/in/trishwhetzel/",
+              "name": "LinkedIn"
+            },
+            {
+              "icon": "gplus",
+              "link": "https://plus.google.com/+trishwhetzel",
+              "name": "Google+"
+            }
+          ],
+          "title": "Co-organizer and Website"
+        },
+        {
+          "name": "Peter Mooshammer",
+          "socials": [
+            {
+              "icon": "twitter",
+              "link": "https://plus.google.com/+PeterMooshammer",
+              "name": "Twitter"
+            },
+            {
+              "icon": "gplus",
+              "link": "https://plus.google.com/+PeterMooshammer",
+              "name": "Google+"
+            }
+          ],
+          "title": "Co-organizer"
+        },
+        {
+          "name": "Tracy Lee",
+          "photoUrl":
+            "https://pbs.twimg.com/profile_images/821783522427834369/SOIW4xGP_400x400.jpg"
+        },
+        {
+          "name": "Necoline Hubner"
+        },
+        {
+          "name": "Piyali Dey"
         }
       ],
       "title": "Core Team"
@@ -141,24 +471,27 @@
     "elements": [
       {
         "currency": "$",
-        "ends": "Nov 10",
-        "info": "Requires valid student ID",
+        "ends": "Dec 1",
         "name": "Regular",
         "price": 20,
         "soldOut": false,
-        "starts": "Sep 10"
+        "starts": "Nov 10"
       },
       {
         "currency": "$",
-        "ends": "Nov 10",
-        "info": "Or first 100 tickets",
+        "ends": "Dec 15",
         "name": "Late Bird",
         "price": 25,
         "soldOut": false,
-        "starts": "Oct 15"
+        "starts": "Dec 1"
       }
     ],
     "url": ""
+  },
+  "userSessions": {
+    "nhKGCte0HQhlciaBVSG8pSmGv002": {
+      "101": true
+    }
   },
   "videos": [
     {
