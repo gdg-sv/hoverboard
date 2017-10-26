@@ -97,7 +97,8 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/photos/107299704799906781285/album/6225267644626135953",
+    "albumUrl":
+      "https://plus.google.com/photos/107299704799906781285/album/6225267644626135953",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
