@@ -75,20 +75,19 @@
       "nickname": "google-developers-group-silicon-valley",
       "url": "https://www.linkedin.com/groups/67627"
     }
-
   ],
   "location": {
     "apiKey": "",
     "name": "Google SV-JAVA111",
     "address": "Sunnyvale",
     "pointer": {
-      "latitude": 37.412208,
-      "longitude": 122.018259,
+      "latitude": 37.41216860000001,
+      "longitude": -122.0184772,
       "zoom": 15
     },
     "mapCenter": {
-      "latitude": 37.412208,
-      "longitude": 122.018259
+      "latitude": 37.41216860000001,
+      "longitude": -122.0184772
     },
     "images": [
       "/images/backgrounds/location_1.jpg",
@@ -97,7 +96,8 @@
     ]
   },
   "gallery": {
-    "albumUrl": "https://plus.google.com/photos/107299704799906781285/album/6225267644626135953",
+    "albumUrl":
+      "https://plus.google.com/photos/107299704799906781285/album/6225267644626135953",
     "photos": {
       "big": "/images/backgrounds/2015_1.jpg",
       "small": [
