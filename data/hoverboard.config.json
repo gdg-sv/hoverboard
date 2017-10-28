@@ -112,8 +112,8 @@
       "headerSettings": {
         "backgroundColor": "#b0c1c4",
         "backgroundImage": "/images/backgrounds/home.png",
-        "fontColor": "#303030",
-        "tabBarColor": "#303030",
+        "fontColor": "#fff",
+        "tabBarColor": "#fff",
         "hideLogo": true,
         "minHeight": "360px"
       }
@@ -121,7 +121,7 @@
     "blog": {
       "title": "Blog",
       "headerSettings": {
-        "backgroundColor": "#b0c1c4",
+        "backgroundColor": "#3f51b5",
         "fontColor": "#fff",
         "tabBarColor": "#fff"
       }
