@@ -8,7 +8,7 @@
   <template>
 
     <style include="shared-styles">
-      :host {
+       :host {
         display: block;
       }
 
@@ -18,7 +18,8 @@
         line-height: 1.2;
       }
 
-      a, .post-content::content a {
+      a,
+      .post-content::content a {
         color: var(--social-font-color);
       }
 
@@ -31,6 +32,7 @@
           margin-top: 10px;
         }
       }
+
     </style>
     <div class="post-meta">
       <a class="post-link" href$="[[canonicalUrl]][[author]]" target="_blank" rel="noopener noreferrer">[[sign]][[author]]</a>
@@ -60,7 +62,7 @@
           text: {
             type: String,
             observer: '_textChanged',
-            value: 'Post about your experience at GDG DevFest Ukraine 2016'
+            value: 'Post about your experience at GDG DevFest SV 2017'
           },
 
           when: {
@@ -84,6 +86,7 @@
       });
 
     }());
+
   </script>
 
 </dom-module>
