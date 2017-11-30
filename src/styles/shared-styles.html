@@ -7,37 +7,35 @@
 <dom-module id="shared-styles">
   <template>
     <style>
-      :root {
+       :root {
         /* Generate theme at https://www.materialpalette.com */
-
         /* Primary colors */
-        --dark-primary-color:       #61696b;
-        --default-primary-color:    #b0c1c4;
-        --light-primary-color:      #c5d8db;
-        --text-primary-color:       #2d2b2b; /* text / icons */
-
+        --dark-primary-color: #61696b;
+        --default-primary-color: #FFA000;
+        --light-primary-color: #c5d8db;
+        --text-primary-color: #2d2b2b;
+        /* text / icons */
         /* Accent colors */
-        --accent-color:             #03A9F4;
-        --disabled-accent-color:    #4dcfff;
+        --accent-color: #03A9F4;
+        --disabled-accent-color: #4dcfff;
 
         /* Background colors */
-        --primary-background-color:   #FFE0B2;
+        --primary-background-color: #FFE0B2;
 
         /* Text colors */
-        --primary-text-color:       #2d2b2b;
-        --secondary-text-color:     #727272;
-        --disabled-text-color:      #BDBDBD;
+        --primary-text-color: #2d2b2b;
+        --secondary-text-color: #727272;
+        --disabled-text-color: #BDBDBD;
 
         /* Other colors */
-        --divider-color:            #B6B6B6;
+        --divider-color: #B6B6B6;
 
         /* --- End of replace section --- */
-
         --secondary-background-color: #FFFFFF;
 
         /* Footer */
-        --footer-background-color:    #fcfcfc;
-        --footer-text-color:          #757575;
+        --footer-background-color: #fcfcfc;
+        --footer-text-color: #757575;
 
         /* Tags colors */
         --general: #bdbdbd;
@@ -165,6 +163,7 @@
         margin: 0;
         min-height: 100vh;
       }
+
       body,
       .markdown-html {
         font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -289,7 +288,8 @@
 
         --paper-dialog-scrollable: {
           padding: 0;
-        };
+        }
+        ;
       }
 
       .scrollable {
@@ -313,7 +313,8 @@
         --paper-tab-ink: currentcolor;
         --paper-tab-content: {
           opacity: 1 !important;
-        };
+        }
+        ;
       }
 
       paper-tab[link] {
@@ -326,9 +327,11 @@
 
       paper-dialog {
         color: inherit;
-        --paper-font-title: {
-        }; /* nuke paper-dialog's styling */
+        --paper-font-title: {}
+        ;
+        /* nuke paper-dialog's styling */
       }
+
     </style>
   </template>
 </dom-module>
